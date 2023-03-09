@@ -75,7 +75,7 @@ def logger(is_timed: bool):
 
 
 #BASE_URL = environ.get("CHATGPT_BASE_URL") or "https://chat.duti.tech/api/"
-BASE_URL = environ.get("CHATGPT_BASE_URL") or "https://chat.openai.com/backend-api/conversation"
+BASE_URL = environ.get("CHATGPT_BASE_URL") or "https://gpt.pawan.krd/backend-api"
 
 class ErrorType:
     # define consts for the error codes
